@@ -48,6 +48,6 @@ int main(){
         default:
         printf("Calculator!");
         break;
-    }while(op==5)
+    } while(op==5)
     return 0;
 }

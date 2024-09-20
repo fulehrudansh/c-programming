@@ -3,9 +3,26 @@
         
  int main(){
     int a, b, c;
-    printf("");
-    scanf("%d", &a)
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
 
-
+    if (a>b){
+        if (a>c){
+            printf("a has the maximum value");
+        }
+        else {
+            printf("c has the maximum value");
+        }
+        if (b>a){
+            if (b>c){
+                printf("b has the maximum value");
+            }
+        }
+        else {
+            if(a>c){
+                printf("a has the maximum value");
+            }
+        }
+    }
     return 0;
 }
