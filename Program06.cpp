@@ -6,22 +6,20 @@
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    if (a>b){
-        if (a>c){
-            printf("a has the maximum value");
+    if (a > b) {
+        if (a > c) {
+            printf("%d is the Largest number.", a);
         }
         else {
-            printf("c has the maximum value");
+            printf("%d is the Largest number.", c);
         }
-        if (b>a){
-            if (b>c){
-                printf("b has the maximum value");
-            }
+    }
+    else {
+        if (b > c) {
+            printf("%d is the Largest number.", b);
         }
         else {
-            if(a>c){
-                printf("a has the maximum value");
-            }
+            printf("%d is the Largest number.", c);
         }
     }
     return 0;
