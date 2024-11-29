@@ -10,6 +10,7 @@ int main(){
 
     printf("\nEnter your Choice:");
     scanf("%d", &op);
+    
     switch(op) {
         case 1:
         printf("Addition of %d and %d is : %d", a, b, a+b);

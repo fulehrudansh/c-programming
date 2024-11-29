@@ -9,8 +9,9 @@ int main() {
 
     int arr[n];
 
-    printf("Enter the Elements");
+    printf("Enter the Elements\n");
     for (i=0; i<n; i++) {
+        printf("a[%d] = ", i);
         scanf("%d", &arr[i]);
     }
 
