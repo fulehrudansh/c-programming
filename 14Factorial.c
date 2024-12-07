@@ -1,10 +1,9 @@
 #include<stdio.h>
 #include<math.h>
 
-int main() {
+void main() {
     printf("Enter a Number to Find Factorial: ");
     printf("\nFactorial of a Given Number is: %d ", fact());
-    return 0;
 }
 
 int fact() {
