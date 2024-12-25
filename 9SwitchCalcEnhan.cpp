@@ -12,7 +12,6 @@ void calculator() {
     printf("\n5. Exit\n");
 
     while (1) {
-
         printf("\n\nEnter your choice: ");
         scanf("%d", &op);
 

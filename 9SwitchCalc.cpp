@@ -1,6 +1,3 @@
-/* Program 09 */
-/* write a c Program that performs as calculator using switch case */
-
 #include <stdio.h>
         
 int main(){
